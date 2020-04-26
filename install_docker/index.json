@@ -21,6 +21,6 @@
     "uimessage1": "\u001b[32mTerminal.\r\nAqui puedes escribir los comandos\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
