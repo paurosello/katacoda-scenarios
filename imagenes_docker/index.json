@@ -28,7 +28,7 @@
       "client": [
         {
           "file": "Dockerfile",
-          "target": "~/"
+          "target": "~/example1"
         }
       ]
     }
