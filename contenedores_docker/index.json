@@ -13,6 +13,9 @@
     },{
       "title": "Comandos dentro del contenedor",
       "text": "step3.md"
+    },{
+      "title": "Detalles del contenedor",
+      "text": "step4.md"
     }],
     "intro": {
       "text": "intro.md",
