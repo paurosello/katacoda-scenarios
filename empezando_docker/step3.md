@@ -8,4 +8,4 @@ Vamos a aprender como podemos explorar los registros de Docker. (Docker Registry
 Podemos buscar imagenes en todos los registros configurador mediante ``docker search ubuntu``{{execute}}
 
 ## Descargar una imagen al servidor
-Para que una imagen este disponible en el servidor usamos ``docker pull alpine``{{execute}}
+Para que una imagen este disponible en el servidor usamos ``docker image pull ubuntu``{{execute}}
