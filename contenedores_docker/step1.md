@@ -1,4 +1,4 @@
-# Comandos gestion de contenedores
+# Comandos basicos
 
 ## Mostrar los contenedores descargadas en el servidor
 Para ver las contenedores en ejecucion ejecutamos ``docker container ls``{{execute}}
