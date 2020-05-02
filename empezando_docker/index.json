@@ -5,7 +5,7 @@
   "time": "10 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Comando docker",
+      "title": "Cliente Docker",
       "text": "step1.md"
     }],
     "intro": {
