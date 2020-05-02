@@ -17,7 +17,7 @@ Para saber el *identificador_contenedor* o *nombre_contenedor* usa el comando ``
 Para ver los logs de un contenedor ``docker container logs``{{copy}} *identificador_contenedor* o *nombre_contenedor*
 
 ## Eliminar un contenedor
-Para ver los volumenes que hay disponibles en el servidor ``docker container rm alpine``{{execute}}
+Para ver los volumenes que hay disponibles en el servidor ``docker container rm``{{copy}} *identificador_contenedor* o *nombre_contenedor*
 
 ## Crear y ejecutar un contenedor
-Para ver los volumenes que hay disponibles en el servidor ``docker run alpine``{{execute}}
+Para ver los volumenes que hay disponibles en el servidor ``docker run lherrera/cowsay``{{execute}}
