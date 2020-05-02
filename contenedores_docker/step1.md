@@ -8,6 +8,8 @@ Para ver todos los contenedore ``docker container ls -a``{{execute}}
 ### Crear un contenedor
 Para ver los volumenes que hay disponibles en el servidor ``docker container create lherrera/cowsay``{{execute}}
 
+Al terminar la creacion de un contenedor nos devuelve el identificador que le ha asignado.
+
 ### Ejecutar un contenedor
 Para ver los volumenes que hay disponibles en el servidor ``docker container start <id>``{{copy}}
 
