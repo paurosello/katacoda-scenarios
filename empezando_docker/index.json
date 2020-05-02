@@ -17,8 +17,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mTerminal.\r\nAqui puedes escribir los comandos\u001b[m\r\n"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu"
