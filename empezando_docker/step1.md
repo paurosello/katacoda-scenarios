@@ -13,3 +13,8 @@ Tambien podemos recibir ayuda para los subcomandos mediante ``docker build --hel
 Para ver las versiones instaladas ejecutamos ``docker version``{{execute}}
 
 Observad como nos da informacion del `cliente` y del `servidor`.
+
+## Mostrar configuracion
+Para ver la configuracion ``docker info``{{execute}}
+
+Nos devuelve informacion sobre la configuracion del servidor de Docker.
