@@ -10,6 +10,9 @@
     },{
       "title": "Formas de arrancar un contenedor",
       "text": "step2.md"
+    },{
+      "title": "Comandos dentro del contenedor",
+      "text": "step3.md"
     }],
     "intro": {
       "text": "intro.md",

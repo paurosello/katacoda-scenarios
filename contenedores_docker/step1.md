@@ -23,3 +23,6 @@ Para ver los volumenes que hay disponibles en el servidor ``docker container rm 
 
 ## Crear y ejecutar un contenedor
 Para ver los volumenes que hay disponibles en el servidor ``docker run lherrera/cowsay``{{execute}}
+
+## Escoger nombre para el contenedor
+Con el argumento `--name` se puede elegir el nombre del contenedor : ``docker run --name=cowsay lherrera/cowsay``{{execute}}

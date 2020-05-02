@@ -1,4 +1,4 @@
-# Comandos basicos
+# Modos de arrancar un contenedor
 
 ## Modo interactivo
 Para poder ver la salida de un comando podemos arrancar un conetenedor de forma interactiva con ``docker container start --interactive <id>``{{copy}}
