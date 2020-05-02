@@ -7,6 +7,9 @@
     "steps": [{
       "title": "Comandos gestion contenedores",
       "text": "step1.md"
+    },{
+      "title": "Formas de arrancar un contenedor",
+      "text": "step2.md"
     }],
     "intro": {
       "text": "intro.md",
