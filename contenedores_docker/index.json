@@ -1,8 +1,8 @@
 {
-  "title": "Imagenes Docker",
-  "description": "En este curso aprenderas a instalar y usar docker.",
+  "title": "Contenedores Docker",
+  "description": "En este curso aprenderas trabajar con contenedores docker.",
   "difficulty": "beginner",
-  "time": "60 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [{
       "title": "Comandos gestion contenedores",
@@ -17,8 +17,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mTerminal.\r\nAqui puedes escribir los comandos\u001b[m\r\n"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu"
