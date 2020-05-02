@@ -1,12 +1,21 @@
 {
   "title": "Imagenes Docker",
-  "description": "En este curso aprenderas a instalar y usar docker.",
-  "difficulty": "beginner",
-  "time": "60 minutes",
+  "description": "En este curso aprenderas trabajar con imagenes de docker.",
+  "difficulty": "Principiante",
+  "time": "30 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Instalando Docker",
+      "title": "Comandos gestion imagenes",
       "text": "step1.md"
+    },{
+      "title": "Formas de arrancar un contenedor",
+      "text": "step2.md"
+    },{
+      "title": "Comandos dentro del contenedor",
+      "text": "step3.md"
+    },{
+      "title": "Detalles del contenedor",
+      "text": "step4.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -17,8 +26,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mTerminal.\r\nAqui puedes escribir los comandos\u001b[m\r\n"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu"

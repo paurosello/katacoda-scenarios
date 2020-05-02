@@ -2,7 +2,7 @@
   "title": "Contenedores Docker",
   "description": "En este curso aprenderas trabajar con contenedores docker.",
   "difficulty": "Principiante",
-  "time": "15 minutes",
+  "time": "20 minutes",
   "details": {
     "steps": [{
       "title": "Comandos gestion contenedores",
