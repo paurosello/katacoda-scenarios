@@ -1,0 +1,26 @@
+{
+  "title": "Imagenes Docker",
+  "description": "En este curso aprenderas a instalar y usar docker.",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [{
+      "title": "Paso 1 - Instalando Docker",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mTerminal.\r\nAqui puedes escribir los comandos\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
