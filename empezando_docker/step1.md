@@ -1,8 +1,8 @@
 # Arquitectura
 ![Arquitectura Docker](https://docs.docker.com/engine/images/architecture.svg)
 
-# Docker Client
-Exploramos la herramienta de la linea de comandos mediante la cual vamos a trabajar durante todo el curso.
+# Cliente Docker
+Exploramos la herramienta de la linea de comandos mediante la cual vamos a trabajar durante todo el curso. (Docker CLI)
 
 ## Mostrar opciones
 Para mostrar todas las opciones se puede ejecutar ``docker --help``{{execute}}
