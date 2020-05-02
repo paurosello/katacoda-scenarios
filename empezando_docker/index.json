@@ -1,17 +1,13 @@
 {
   "title": "Empezando con Docker",
-  "description": "En este curso aprenderas a instalar y usar docker.",
+  "description": "En este ejercicio aprenderas los primeros comandos de docker.",
   "difficulty": "beginner",
-  "time": "60 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [{
-      "title": "Paso 1 - Instalando Docker",
+      "title": "Paso 1 - Comando docker",
       "text": "step1.md"
     }],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
-    },
     "finish": {
       "text": "finish.md"
     }

@@ -1,3 +1,0 @@
-## Cursos
-    - Docker
-    - Kubernetes

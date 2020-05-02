@@ -1,1 +1,1 @@
-Has completado el escenario, puedes ver el siguiente en https://github.com/paurosello/katacoda-scenarios.
+Has completado el ejercicio.
