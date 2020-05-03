@@ -15,5 +15,9 @@ Entra en [Dockerhub](https://hub.docker.com/) y crea una cuenta para poder subir
 ## Anadir tag con tu usuario a la imagen creada anteriormente
 ``docker tag example1:1.0.0 <username>/example1:dev``{{copy}}
 
-## Anadir tag con tu usuario a la imagen creada anteriormente
-``docker tag example1:1.0.0 <username>/example1:dev``{{copy}}
+## Subir imagen a dockerhub
+``docker push <username>/example1:dev``{{copy}}
+
+## Accede a tu imagen en dockerhub
+- Abre la web `https://hub.docker.com/repository/docker/<username>/example1`
+- Comprueba que el identificador de la imagen coincide con lo que tienes en tu terminal
