@@ -27,11 +27,15 @@
     "assets": {
       "client": [
         {
-          "file": "example1",
+          "file": "example1/Dockerfile",
           "target": "~/example1"
         },
         {
-          "file": "example2",
+          "file": "example2/Dockerfile",
+          "target": "~/example2"
+        },
+        {
+          "file": "example2/hello.txt",
           "target": "~/example2"
         }
       ]
