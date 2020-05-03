@@ -4,6 +4,13 @@
 ## Detalles de una imagen
 Para ver mas informacion de una imagen podemos ejecutar: ``docker image inspect example1 | jq``{{execute}}
 
+## Construccion imagen 2 capas
+Abre el archivo ``example2/Dockerfile`` y observa como anadimos un fichero dentro del contenedor
+
+Construimos esta imagen con ``cd ~/example2 && docker build . -t example2``
+
+Probamos a ejecutar la imagen ``docker run --rm example2``
+
 ## Herramienta visualizacion capas de una imagen
 Para ver mas informacion de una imagen podemos usar la herramienta [Dive](https://github.com/wagoodman/dive)
 
