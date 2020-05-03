@@ -19,6 +19,9 @@
     },{
       "title": "Detalles de una imagen",
       "text": "step5.md"
+    },{
+      "title": "Servidor python",
+      "text": "exercise1.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -40,6 +43,18 @@
         {
           "file": "example2/hello.txt",
           "target": "~/example2"
+        },
+        {
+          "file": "exercise1/Dockerfile",
+          "target": "~/exercise1"
+        },
+        {
+          "file": "exercise1/requirements.txt",
+          "target": "~/exercise1"
+        },
+        {
+          "file": "exercise1/server.py",
+          "target": "~/exercise1"
         }
       ]
     }

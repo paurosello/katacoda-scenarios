@@ -1,0 +1,9 @@
+#Dockerfile
+FROM python:3
+ADD requirements.txt
+RUN pip install -r requirements.txt
+CMD python app.py
+
+#Terminal
+docker build . -t python_server
+docker run python_server
