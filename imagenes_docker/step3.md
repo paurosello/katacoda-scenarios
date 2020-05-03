@@ -1,12 +1,19 @@
 
-# Comandos dentro del contenedor
+# Publicar imagen en dockerhub
 
-## Ejecutar un comando al arrancar el contenedor
-Todo lo que especifiquemos detras del nombre de la imagen es un comando que ejecutamos dentro del contenedor : ``docker run -i --rm alpine echo "Hello World"``{{execute}}
+## Crea una cuenta en Dockerhub
+Entra en [Dockerhub](https://hub.docker.com/) y crea una cuenta para poder subir tus imagenes.
 
-## Abrir una terminal dentro del contenedor
-Hay que habilitiar la interactividad y el [tty](https://en.wikipedia.org/wiki/Tty_(unix)) : ``docker run -i -t --rm alpine /bin/sh``{{execute}}
+## Crea un token de acceso a dockerhub
+- Accede a [https://hub.docker.com/settings/security]
+- Crea un token de acceso con nombre `katacoda`
+- Copia el token en un lugar seguro
+- Ejecuta ``docker login --username <username>``{{copy}}
+- Introduce el token
+- Al acabar la sesion, elimina el token de tu cuenta
 
-Ejecuta el comando ``hostname``{{execute}} y te devolvera el identificador del pod.
+## Anadir tag con tu usuario a la imagen creada anteriormente
+``docker tag example1:1.0.0 <username>/example1:dev``{{copy}}
 
-Para salir de la linea de comandos usa `Control+D`
+## Anadir tag con tu usuario a la imagen creada anteriormente
+``docker tag example1:1.0.0 <username>/example1:dev``{{copy}}
