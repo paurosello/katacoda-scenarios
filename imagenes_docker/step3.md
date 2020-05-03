@@ -1,23 +1,20 @@
 
-# Publicar imagen en dockerhub
+# Crear imagen de un contenedor
 
-## Crea una cuenta en Dockerhub
-Entra en [Dockerhub](https://hub.docker.com/) y crea una cuenta para poder subir tus imagenes.
+## Arrancamos un contenedor de forma interactiva
+``docker run -it --name=container_test ubuntu /bin/bash``{{execute}}
 
-## Crea un token de acceso a dockerhub
-- Accede a [opciones de seguridad](https://hub.docker.com/settings/security)
-- Crea un token de acceso con nombre `katacoda`
-- Copia el token en un lugar seguro
-- Ejecuta ``docker login --username <username>``{{copy}}
-- Introduce el token
-- Al acabar la sesion, elimina el token de tu cuenta
+## Creatmos un fichero dentro del contenedor y salimos con Control+D
+``echo "hello" > new_file.txt``{{execute}}
 
-## Anadir tag con tu usuario a la imagen creada anteriormente
-``docker tag example1:1.0.0 <username>/example1:dev``{{copy}}
+## Listamos los contenedors creados
+``docker container ls --all``{{execute}}
 
-## Subir imagen a dockerhub
-``docker push <username>/example1:dev``{{copy}}
+## Le indicamos a docker que cree una imagen de un contenedor parado
+``docker commit container_test image_from_container:latest``{{execute}}
 
-## Accede a tu imagen en dockerhub
-- Abre la web `https://hub.docker.com/repository/docker/<username>/example1`
-- Comprueba que el identificador de la imagen coincide con lo que tienes en tu terminal
+## Comprobamos que se ha creado la imagen
+``docker image ls``{{execute}}
+
+## Ejecutamos un contenedor con la imagen que acabamos de crear
+``docker run -it --rm image_from_container /bin/bash``{{execute}}

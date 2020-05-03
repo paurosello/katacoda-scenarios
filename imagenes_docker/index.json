@@ -8,14 +8,17 @@
       "title": "Comandos gestion imagenes",
       "text": "step1.md"
     },{
-      "title": "Formas de arrancar un contenedor",
+      "title": "Ejecucion y contruccuion imagen",
       "text": "step2.md"
     },{
-      "title": "Comandos dentro del contenedor",
+      "title": "Crear imagen de un contenedor",
       "text": "step3.md"
     },{
-      "title": "Detalles del contenedor",
+      "title": "Publicar imagen",
       "text": "step4.md"
+    },{
+      "title": "Detalles de una imagen",
+      "text": "step5.md"
     }],
     "intro": {
       "text": "intro.md",
