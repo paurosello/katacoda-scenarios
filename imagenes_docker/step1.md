@@ -1,7 +1,7 @@
 # Comandos basicos
 
 ## Mostrar las imagenes descargadas en el servidor
-Para ver las imagenes en ejecucion ejecutamos ``docker images ls``{{execute}}
+Para ver las imagenes en ejecucion ejecutamos ``docker image ls``{{execute}}
 
 ## Buscar imagenes en registry
 Para buscar imagenes en ``docker search wordpress``{{execute}}
