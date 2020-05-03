@@ -5,7 +5,7 @@
 Entra en [Dockerhub](https://hub.docker.com/) y crea una cuenta para poder subir tus imagenes.
 
 ## Crea un token de acceso a dockerhub
-- Accede a [https://hub.docker.com/settings/security]
+- Accede a [opciones de seguridad](https://hub.docker.com/settings/security)
 - Crea un token de acceso con nombre `katacoda`
 - Copia el token en un lugar seguro
 - Ejecuta ``docker login --username <username>``{{copy}}
