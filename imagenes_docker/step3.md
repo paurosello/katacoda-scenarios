@@ -7,6 +7,9 @@
 ## Creatmos un fichero dentro del contenedor y salimos con Control+D
 ``echo "hello" > new_file.txt``{{execute}}
 
+## Observamos las diferencias entre la imagen base y el contenedor actual
+``docker diff container_test``{{execute}}
+
 ## Listamos los contenedors creados
 ``docker container ls --all``{{execute}}
 
